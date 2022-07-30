@@ -23,7 +23,7 @@
     "pino": "^7.9.2",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
-    "supervisor": "^0.12.0",
+    "Node": "^0.12.0",
     "util": "^0.12.4",
     "yargs": "^17.4.0"
   },
@@ -34,7 +34,7 @@
     "qrcode-terminal": "^0.12.0"
   },
   "scripts": {
-    "start": "supervisor index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
